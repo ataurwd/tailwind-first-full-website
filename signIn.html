@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/images/index.css">
+</head>
+<body class="min-h-screen flex items-center justify-center">
+    <!-- login  -->
+<form action="" class="bg-sky-400 w-[30%] ml-28 mt-28 px-[100px] py-14 mt-[-20px] rounded-xl shadow-inner 
+        bg-gradient-to-t from-sky-400 to-sky-200" id="loginForm">
+        <h3 class="text-[35px] mb-4 text-center">Login Now</h3>
+        <div id="login" class="">
+            <label>
+                <span class="text-[17px] text-white">User or Email</span> <br>
+                <input type="email" name="name" id="" class="border-[2px] mt-1 mb-3 w-full border-none py-[5px] rounded-lg pl-3" placeholder="Email Address">
+            </label><br>
+            <label class="text-[17px] text-white">
+                <span class="">Password</span> <br>
+                <input class="border-[2px] mt-1 mb-3 w-full border-none py-[5px] rounded-lg px-3 focus:text-black" type="password" placeholder="Password Here">
+            </label> <br>
+            <button class="bg-blue-500 text-white py-[5px] px-[14px] rounded">Login Now</button>
+            <button id="signUp" class="bg-blue-500 text-white py-[5px] px-4 rounded">Sign up</button>
+        </div>
+    </form>
+
+    <!-- sign up  -->
+    <form action="" class="bg-sky-400 w-[30%] ml-28 mt-28 px-[100px] py-14 mt-[-20px] rounded-xl shadow-inner bg-gradient-to-t from-sky-400 to-sky-200" id="signUpForm">
+        <h3 class="text-[28px] mb-4 text-center">Sign Up Now</h3>
+        <div id="login" class="">
+            <label > 
+                <span class="text-[17px] text-white">Full Name</span> <br>
+                <input type="text" name="name" id="" class="border-[2px] mt-1 mb-3 w-full border-none py-[5px] rounded-lg pl-3" placeholder="Your Name">
+            </label><br>
+            <label class="text-[17px] text-white">
+                <span class="">Email</span> <br>
+                <input class="border-[2px] mt-1 mb-3 w-full border-none py-[5px] rounded-lg px-3" type="email" placeholder="exampla@gmail.com">
+            </label> <br>
+            <label class="text-[17px] text-white">
+                <span class="">Password</span> <br>
+                <input class="border-[2px] mt-1 mb-3 w-full border-none py-[5px] rounded-lg px-3" type="password" placeholder="type a password">
+            </label> <br>
+            <button class="bg-blue-500 text-white py-[5px] px-4 rounded">Sign up</button>
+            <button id="login" class="bg-blue-500 text-white py-[5px] px-[14px] rounded">Login Now</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

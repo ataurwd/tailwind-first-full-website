@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        a, li{
+            font-family: "Playwrite IT Moderna", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+        h1, h2{
+            font-family: "Poppins", sans-serif;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <!-- nav bar -->
+     <nav class=" flex justify-between items-center px-24 py-4">
+        <div class="logo">
+            <a class="text-[28px]" href="index.html">Ataur <span class="text-sky-500">Wd</span></a>
+        </div>
+        <div class="menu flex space-x-8 *:text-sky-700 *:text-[17px]">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+     </nav>
+
+
+    <!-- heading section -->
+<div class="flex mx-[150px] mt-8">
+    <div class="w-[50%] mt-[3rem]">
+        <h1 class="text-[40px] font-semibold">Welcome To our <br> <span class="text-sky-500">Website</span></h1>
+        <p class="w-[80%] pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi repellat molestiae sint minima, autem porro, doloribus quae qui dolores corrupti tempora mollitia omnis ab harum, officiis doloremque! At ratione vero illo omnis cupiditate, tempore doloremque atque aperiam, nisi repellendus assumenda. Dolorem harum, numquam ratione voluptatem commodi fuga non doloribus corrupti.
+        </p>
+        <button onclick="alert('Someone Click Me')" class="bg-sky-400 px-3 py-1 rounded-lg hover:bg-sky-300 hover:text-black">About Us</button>
+        <button onclick="alert('Someone Click Me')" class="bg-sky-400 px-3 py-1 rounded-lg hover:bg-sky-300 hover:text-black">Contact Me</button>
+    </div>
+    <div class="w-[50%] mt-6">
+        <img src="../src/images/png-transparent-html-css-web-development-programmer-concept-cartoon-illustration-removebg-preview.png" alt="">
+    </div>
+</div>
+<!--end heading section -->
+
+
+
+<!-- services section -->
+ <div class="mx-[100px] mt-[100px] mb-[70px] flex *:my-2">
+    <!-- first -->
+    <div class=" bgGradient ps-7 pt-[20px] mb-[30px] pb-5 mx-4 rounded-xl hover:bg-sky-400 cursor-pointer">
+        <img class="w-[100px] h-[100px]" src="../src/images/icons/mobile-app-development.png" alt="">
+        <h2 class="text-[30px]">Mobile App</h2>
+        <p class="w-[80%]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro quia omnis nemo accusantium libero, quae minus soluta doloribus minima, laudantium enim nulla numquam? Impedit hic vitae eveniet dolores, magnam ipsum.
+        </p>
+        <button class="bg-sky-400 text-white px-5 py-[6px] mt-2 rounded-lg hover:bg-sky-600" onclick="alert('Someone Click me')">See More</button>
+    </div>
+    <!-- second -->
+    <div class="bgGradient ps-7 pt-[20px] mb-[30px] pb-5 mx-4  rounded-xl hover:bg-sky-400 cursor-pointer">
+        <img class="w-[100px] h-[100px]" src="../src/images/icons/web-services.png">
+        <h2 class="text-[30px]">Web services</h2>
+        <p class="w-[80%]">Deserunt dicta, expedita corporis maxime eligendi sunt enim corrupti aliquid quae quasi, nihil magni dolorum voluptatibus, nisi nobis quis neque placeat dolores incidunt. Dolores saepe dolor laborum magnam, ea error.
+        </p>
+        <button class="bg-sky-400 text-white px-5 py-[6px] mt-2 rounded-lg hover:bg-sky-600" onclick="alert('Someone Click me')">See More</button>
+    </div>
+    <!-- third -->
+    <div class="bgGradient ps-7 pt-[20px] mb-[30px] pb-5 mx-4  rounded-xl hover:bg-sky-400 cursor-pointer">
+        <img class="w-[100px] h-[100px]" src="../src/images/icons/website.png" alt="">
+        <h2 class="text-[30px]"> Web Hosting</h2>
+        <p class="w-[80%]">Aut quibusdam ipsum, nobis rerum nam deleniti aliquid. Natus atque cum vero dolor ut. Recusandae voluptate ipsam unde, deleniti dolores eos, quasi ad hic saepe quibusdam tempore maiores asperiores iste.
+        </p>
+        <button class="bg-sky-400 text-white px-5 py-[6px] mt-2 rounded-lg hover:bg-sky-600" onclick="alert('Someone Click me')">See More</button>
+    </div>
+ </div>
+
+
+ <!-- Who We Are -->
+  <div class="flex mx-[100px] my-[50px]">
+    <div class="w-[50%] mr-8">
+        <img id="servicesImg" src="../src/images/Who We Are.png" alt="">
+    </div>
+    <div class="w-[50%]">
+        <h1 class="text-[40px] mt-8 mb-3 font-semibold">Who We Are</h1>
+        <p class="text-[18px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, illum. Libero, nulla fuga. At impedit itaque iste rem earum incidunt voluptatum nisi aliquam iusto voluptate assumenda illo error ullam repellendus corporis, ex veritatis dignissimos. Debitis perferendis assumenda recusandae, laboriosam, repudiandae error similique blanditiis ducimus ut cum eligendi explicabo, sint illo.
+        </p>
+        <ul class="mt-4 *:mt-2 *:text-sky-600 text-[24px] mb-4">
+            <li>What We Believe</li>
+            <li>What We Do</li>
+            <li>World Offices</li>
+        </ul>
+        <button class="bg-sky-400 text-white px-5 py-[6px] mt-2 rounded-lg hover:bg-sky-600" onclick="alert('Someone Click me')">Contact Me</button>
+    </div>
+  </div>
+
+
+<!-- services section -->
+  <div class="bg-[url('https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/footer_bg.jpg')]">
+    <!-- first services section -->
+    <div  class=" *:text-white flex px-[150px] justify-center align-middle py-[60px]">
+        <div>
+            <img src="https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/service_icon_7.png" alt="">
+            <h1 class="my-3 text-[27px]">What We Belive</h1>
+            <p class="w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, perferendis.</p>
+        </div>
+        <div>
+            <img src="https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/service_icon_9.png" alt="">
+            <h1 class="my-3 text-[27px]">What We Do</h1>
+            <p class="w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolorum?</p>
+        </div>
+        <div>
+            <img class="h-[50px]" src="https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/color-icon2.png" alt="">
+            <h1 class="my-3 text-[27px]">World Offices</h1>
+            <p class="w-[70%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, consequuntur.</p>
+        </div>
+      </div>
+      <!-- 2nd services section -->
+      <div  class=" *:text-white flex px-[150px] justify-center align-middle pt-5 pb-[60px]">
+        <div>
+            <img src="https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/service_icon_10.png" alt="">
+            <h1 class="my-3 text-[27px]">Media Center</h1>
+            <p class="w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, perferendis.</p>
+        </div>
+        <div>
+            <img src="https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/service_icon_8.png" alt="">
+            <h1 class="my-3 text-[27px]">our People</h1>
+            <p class="w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolorum?</p>
+        </div>
+        <div>
+            <img src="https://webdesign-finder.com/deepdigital-ai-v2/wp-content/uploads/2023/06/service_icon_11.png" alt="">
+            <h1 class="my-3 text-[27px]">Social Impact</h1>
+            <p class="w-[70%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, consequuntur.</p>
+        </div>
+      </div>
+  </div>
+
+  <!-- client review -->
+   <h1 class="text-center mt-[70px] text-[34px]">Client <span class="text-pink-500 underline">Review</span></h1>
+   <div class="my-[80px] mt-[100px] mx-[200px] flex text-black">
+    <!-- first review -->
+    <div class="mr-5 bg-sky-400 p-5 pl-8 rounded-2xl" id="review">
+        <div class="mt-[-61px]">
+            <img class="w-[79px] rounded-full h-[79px] border-4 border-pink-500" src="https://d.newsweek.com/en/full/2292361/mia-khalifa.jpg?w=1600&h=1600&q=88&f=a643a29e1e5e038dabbda71d7694a8a0" alt="">
+        </div>
+        <div>
+            <h2 class="my-3">Elizabeth</h2>
+            <p class="w-[95%]">This product exceeded my expectations! The build quality is top-notch, performance is seamless, and the user interface is intuitive. Highly recommend for anyone seeking reliability and functionality. Five stars!
+            </p>
+            <p class="text-black text-[14px] font-bold mt-3">CEO, OF PH</p>
+        </div>
+    </div>
+    <!-- second review -->
+    <div class="mr-5 bg-sky-400 p-5 pl-8 rounded-2xl" id="review">
+        <div class="mt-[-61px]">
+            <img class="w-[79px] rounded-full h-[79px] border-4 border-pink-500" src="https://pbs.twimg.com/profile_images/1178987041209454594/uhPst1AS_400x400.jpg" alt="">
+        </div>
+        <div>
+            <h2 class="my-3">Olivia</h2>
+            <p class="w-[95%]">This product exceeded my expectations with its outstanding quality and seamless performance. The user interface is intuitive and easy to navigate. Highly recommend for anyone seeking reliability and functionality. Five stars!
+            </p>
+            <p class="text-black text-[14px] font-bold mt-3">CEO, OF NA</p>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial section -->
+  
+<div class="max-w-4xl mx-auto my-14">
+    <h2 class="text-3xl font-semibold text-center mb-8">Frequently <span class="text-pink-400 underline">Asked Questions</span></h2>
+    <!-- first -->
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-4">
+      <h3 id="plusBtn1" class="text-xl font-semibold mb-2 cursor-pointer">What is your return policy? 
+        <button class="ml-[565px]" id="plusBtn1">+ </button>
+    </h3>
+      <p id="question1" class="text-gray-700">Our digital agency offers a comprehensive range of services including web development, graphic design, 3D art, SEO optimization, social media marketing, and digital advertising. We aim to provide end-to-end digital solutions to help businesses establish and grow their online presence.
+    </p>
+    </div>
+    <!-- second -->
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-4">
+      <h3 id="plusBtn2" class="text-xl font-semibold mb-2 cursor-pointer">How long does shipping take?
+        <button id="plusBtn2" class="ml-[33.5rem]">+</button>
+      </h3>
+      <p id="question2" class="text-gray-700">We begin by understanding our client's business goals and target audience. This involves detailed discussions and brainstorming sessions. We then conduct market research and competitor analysis to craft a tailored strategy. Our team collaborates closely with clients throughout the design, development, and implementation phases to ensure the final product aligns with their vision.
+    </p>
+    </div>
+    <!-- third -->
+    <div class="bg-white p-6 rounded-lg shadow-lg mb-4">
+      <h3 id="plusBtn3" class="text-xl font-semibold mb-2 cursor-pointer">Do you offer customer support?
+        <button class="ml-[32.7rem]" id="plusBtn3">+ </button>
+      </h3>
+      <p id="question3" class="text-gray-700">The timeline for a project varies depending on its complexity and scope. A standard website design project typically takes 4-6 weeks, while more complex projects like e-commerce platforms or comprehensive digital marketing campaigns may take 8-12 weeks or longer. We provide a detailed timeline after the initial consultation and project briefing.
+    </p>
+    </div>
+  </div>
+
+  
+
+    <!-- this if for footer section -->
+
+    <div class="bg-black text-white text-center py-5">
+        <p>Copyright © 2024 Ataur WD</p>
+    </div>
+  <script src="../js/index.js"></script>
+</body>
+</html>

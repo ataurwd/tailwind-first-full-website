@@ -1,0 +1,10 @@
+#boxShadow {
+    box-shadow: 6px 5px 7px 0px gray;
+    background: linear-gradient(-225deg, #E0F2FE 20%, #9fb9ca 100%);
+}
+#shadow{
+    box-shadow: 6px 5px 7px 0px gray;
+}
+.bgCusotm{
+    background-color: #E0F2FE;
+}

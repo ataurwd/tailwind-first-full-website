@@ -1,0 +1,27 @@
+#servicesImg{
+    border-radius: 30% 70% 70% 30% / 46% 49% 51% 54% ;
+    background: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+}
+
+li::before{
+    content: "➡️";
+    margin-right: 10px;
+}
+
+#review, .bgGradient{
+    background: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+}
+
+#question1, #question2, #question3{
+    display: none;
+}
+
+#minusBtn1{
+    display: none;
+}
+
+.blog{
+    background-color: cyan;
+    border: 10px solid black;
+    border-bottom: 20px solid red;
+}
