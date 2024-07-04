@@ -17,10 +17,12 @@ faqbtn('plusBtn1', 'question1')
 faqbtn('plusBtn2', 'question2')
 faqbtn('plusBtn3', 'question3')
 
-
+//this is for disable right click
 document.addEventListener('contextmenu', function(e){
     e.preventDefault(e)
 }, false);
+
+
 
 document.getElementById('menu-toggle').addEventListener('click', function() {
     const menu = document.getElementById('menu');
