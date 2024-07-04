@@ -21,3 +21,8 @@ faqbtn('plusBtn3', 'question3')
 document.addEventListener('contextmenu', function(e){
     e.preventDefault(e)
 }, false);
+
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('hidden');
+});

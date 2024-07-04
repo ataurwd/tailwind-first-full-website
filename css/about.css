@@ -1,3 +1,12 @@
+a{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1, h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
 #boxShadow {
     box-shadow: 6px 5px 7px 0px gray;
     background: linear-gradient(-225deg, #E0F2FE 20%, #9fb9ca 100%);
@@ -7,4 +16,10 @@
 }
 .bgCusotm{
     background-color: #E0F2FE;
+}
+
+@media  (min-width: 400px) and (max-width: 1100px){
+    body{
+        display: none;
+    }
 }

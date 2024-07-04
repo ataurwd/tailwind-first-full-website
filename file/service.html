@@ -10,18 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../css/services.css">
-    <style>
-        a{
-            font-family: "Playwrite IT Moderna", cursive;
-            font-optical-sizing: auto;
-            font-style: normal;
-        }
-        h1, h2{
-            font-family: "Poppins", sans-serif;
-            font-weight: 900;
-        }
-    </style>
+
 </head>
 <body>
     <!-- nav bar -->
@@ -44,6 +35,7 @@
 
       <!-- 4 services here -->
      <div class="flex justify-center my-[70px]">
+        <!-- first -->
         <div class="p-5  mx-3 rounded-xl serviceBoxShadow">
             <div >
                 <img  height="200px" width="200px" src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1719878400&semt=ais_user" alt="">
@@ -52,6 +44,7 @@
 
             </h2>
         </div>
+        <!-- second -->
         <div class="p-5  mx-3 rounded-xl serviceBoxShadow">
             <div >
                 <img  height="200px" width="200px" src="https://img.freepik.com/free-vector/website-building-web-graphic-interface-design-responsive-website-software-engineering-development-male-programmeer-cartoon-character-vector-isolated-concept-metaphor-illustration_335657-2792.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1712448000&semt=ais" alt="">
@@ -59,6 +52,7 @@
             <h2 class="font-bold mt-2 text-[16px] text-center">Responsive Web Design
             </h2>
         </div>
+        <!-- third -->
         <div class="p-5  mx-3 rounded-xl serviceBoxShadow">
             <div >
                 <img  height="215px" width="208px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBBzXkRYrFQU0dguShTpAQQcDNTLkxfDhQMA&s" alt="">
@@ -66,6 +60,7 @@
             <h2 class="font-bold mt-2 text-[16px] text-center">Content Management <br> Systems (CMS)
             </h2>
         </div>
+        <!-- fourth -->
         <div class="p-5  mx-3 rounded-xl serviceBoxShadow">
             <div class="pt-[1.75rem]">
                 <img  height="201px" width="206px" src="https://img.freepik.com/premium-vector/flat-isometric-illustration-landing-page-concept-developer-application-web-design-layout_18660-2097.jpg" alt="">
@@ -73,7 +68,124 @@
             <h2 class="font-bold mt-2 text-[16px] text-center">Custom Web Application <br> Development
             </h2>
         </div>
-        
      </div>
+
+     <!-- services menu function -->
+<div class="mainSection mb-[50px]">
+    <div class="justify-center mx-[250px] my-8">
+        <h1 class="text-center mt-[70px] text-[34px] font-bold">Our All <span class="text-pink-400">Services</span></h1>
+        <p class="text-center">Discover our comprehensive range of web development services, including responsive web design, e-commerce solutions, CMS integration, and custom web applications. We deliver innovative, high-quality solutions tailored to meet your unique business needs. Let us bring your vision to life.</p>
+     </div>
+     <div class="*:mx-2 justify-center mx-auto flex mb-5">
+        <button class="bg-pink-400 px-2 py-1 rounded-lg text-white" id="mobileApp">E-commerce</button>
+        <button class="bg-pink-400 px-2 py-1 rounded-lg text-white" id="webDev">Responsive Web </button>
+        <button class="bg-pink-400 px-2 py-1 rounded-lg text-white" id="gameDev">CMS Systems</button>
+        <button class="bg-pink-400 px-2 py-1 rounded-lg text-white" id="development"> Development</button>
+    </div>
+
+    <!-- service start first one -->
+     <div id="commerceService">
+        <div class="flex mx-[100px]" >
+            <div class="w-[85%]">
+                <h5 class="text-gray-500">E-commerce</h5>
+                <h1 class="text-[25px]">Top Mobile Application <br> <span class="text-pink-400">Development Services.</span></h1>
+                <p class="w-[80%]">There are many variations of passages of Lorem Ipsum available, the majority have suffered alteration in some form, by injected humour. randomised words which don't look even slightly believable. It uses a dictionary of over 200 Latin words, combined with.
+                </p>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <ul class="icon-list" style="list-style: none;">
+                    <li><i class="fas fa-check-circle text-primary"></i> Mobile App Development</li>
+                    <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App UI/UX Design</li>
+                    <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App Maintenance and Support</li>
+                </ul>
+                <button class="bg-pink-400 px-2 py-1 rounded-lg text-white my-2" onclick="alert('Working On It')"><i class="fas fa-user-plus">Enrole Now</i>
+                </button>
+                </div>
+                <div class="w-[100%] -mt-4">
+                <img src="https://elements-cover-images-0.imgix.net/efb6d0fa-d276-4617-8031-1fc61adb34e3?auto=compress%2Cformat&w=900&fit=max&s=458b2d57980628cc3d764a9c58cb1b74" alt="Mobile Application Image" class="img-fluid rounded">
+            </div>
+        </div>
+     </div>
+    
+    <!--Second one -->
+ <div id="responsiveService">
+    <div class="flex mx-[100px]" >
+        <div class="w-[50%]">
+            <h5 class="text-gray-500">Responsive Web</h5>
+            <h1 class="text-[25px]">Solutions for All  <br> <span class="text-pink-400">Devices</span></h1>
+            <p class="w-[70%]">There are many variations of passages of Lorem Ipsum available, the majority have suffered alteration in some form, by injected humour. randomised words which don't look even slightly believable. It uses a dictionary of over 200 Latin words, combined with.
+            </p>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+            <ul class="icon-list" style="list-style: none;">
+                <li><i class="fas fa-check-circle text-primary"></i> Mobile App Development</li>
+                <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App UI/UX Design</li>
+                <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App Maintenance and Support</li>
+            </ul>
+            <button class="bg-pink-400 px-2 py-1 rounded-lg text-white my-2" onclick="alert('Working On It')"><i class="fas fa-user-plus">Enrole Now</i>
+            </button>
+            </div>
+            <div class="w-[50%] -mt-4">
+            <img src="https://elements-cover-images-0.imgix.net/d226efed-5694-482f-9fa0-599f404766bc?auto=compress%2Cformat&w=900&fit=max&s=73e273cfdab1432a981c595022863233" alt="Mobile Application Image" class="img-fluid rounded">
+        </div>
+    </div>
+ </div>
+    <!-- Third one -->
+     <div id="cmsSystemService">
+        <div class="flex mx-[100px]" >
+            <div class="w-[85%]">
+                <h5 class="text-gray-500">CMS Systems</h5>
+                <h1 class="text-[25px]">Manage Your Content  <br> <span class="text-pink-400">Effortlessly</span></h1>
+                <p class="w-[70%]">There are many variations of passages of Lorem Ipsum available, the majority have suffered alteration in some form, by injected humour. randomised words which don't look even slightly believable. It uses a dictionary of over 200 Latin words, combined with.
+                </p>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <ul class="icon-list" style="list-style: none;">
+                    <li><i class="fas fa-check-circle text-primary"></i> Mobile App Development</li>
+                    <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App UI/UX Design</li>
+                    <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App Maintenance and Support</li>
+                </ul>
+                <button class="bg-pink-400 px-2 py-1 rounded-lg text-white my-2" onclick="alert('Working On It')"><i class="fas fa-user-plus">Enrole Now</i>
+                </button>
+                </div>
+                <div class="w-[65%] -mt-4">
+                <img src="https://comtechitservices.com/images/2017/10/11/cms.png" alt="Mobile Application Image" class="img-fluid rounded">
+            </div>
+        </div>
+     </div>
+    
+    <!--Fourth one -->
+    <div id="DevelopmentService">
+        <div class="flex mx-[100px]" >
+            <div class="w-[85%]">
+                <h5 class="text-gray-500">Development</h5>
+                <h1 class="text-[25px]">Crafting Innovative  <br> <span class="text-pink-400">Digital Solutions</span></h1>
+                <p class="w-[70%]">There are many variations of passages of Lorem Ipsum available, the majority have suffered alteration in some form, by injected humour. randomised words which don't look even slightly believable. It uses a dictionary of over 200 Latin words, combined with.
+                </p>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <ul class="icon-list" style="list-style: none;">
+                    <li><i class="fas fa-check-circle text-primary"></i> Mobile App Development</li>
+                    <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App UI/UX Design</li>
+                    <li class="mt-2"><i class="fas fa-check-circle text-primary"></i> App Maintenance and Support</li>
+                </ul>
+                <button class="bg-pink-400 px-2 py-1 rounded-lg text-white my-2" onclick="alert('Working On It')"><i class="fas fa-user-plus">Enrole Now</i>
+                </button>
+                </div>
+                <div class="w-[100%] -mt-4">
+                <img src="https://elements-cover-images-0.imgix.net/800828e7-9598-4a27-8cff-e067dcbe015a?auto=compress%2Cformat&w=632&fit=max&s=be299b803bb23579366fa7db3f388786" alt="Mobile Application Image" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+     <script src="../js/services.js"></script>
 </body>
 </html>
