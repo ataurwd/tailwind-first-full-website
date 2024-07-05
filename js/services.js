@@ -1,4 +1,4 @@
-function clickItem(buttonId, showId, hideId1, hideId2, hideId3) {
+const clickItem = (buttonId, showId, hideId1, hideId2, hideId3) => {
     document.getElementById(buttonId).addEventListener('click', function() {
         document.getElementById(showId).style.display = 'block';
         document.getElementById(hideId1).style.display = 'none';

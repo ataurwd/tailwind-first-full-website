@@ -1,6 +1,6 @@
 // This is for faq section
 function faqbtn(btn, question, ){
-   document.getElementById(btn).addEventListener('click', function(){
+   document.getElementById(btn).addEventListener('click', () =>{
         const answer = document.getElementById(question)
         if(answer.style.display === 'none' || answer.style.display === ''){
             answer.style.display = 'block';
@@ -18,13 +18,13 @@ faqbtn('plusBtn2', 'question2')
 faqbtn('plusBtn3', 'question3')
 
 //this is for disable right click
-document.addEventListener('contextmenu', function(e){
+document.addEventListener('contextmenu', (e) =>{
     e.preventDefault(e)
 }, false);
 
 
 
-document.getElementById('menu-toggle').addEventListener('click', function() {
+document.getElementById('menu-toggle').addEventListener('click', () => {
     const menu = document.getElementById('menu');
     menu.classList.toggle('hidden');
 });
